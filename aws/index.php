@@ -32,9 +32,9 @@
  //    die;
 
 include('aws_signed_request.php');
-$public_key = 'AKIAJDBS764437ALC74A';
-$private_key = 'yboG9cM8kxg1RpT6iDi1eVZOUaXu37tZE5VS9eb7';
-$associate_tag = 'davin01-20';
+$public_key = 'AKIAJDBS764437ALC74AS';
+$private_key = 'yboG9cM8kxg1RpT6iDi1eVZOUaXu37tZE5VS9eb7A';
+$associate_tag = 'davin01-20N';
 
 // generate signed URL
 $request = aws_signed_request('com', array(
